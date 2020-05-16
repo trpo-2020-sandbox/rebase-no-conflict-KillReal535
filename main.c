@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 #define N_ELEMENTS(arr) (sizeof(arr) / sizeof(*(arr)))
 
 int min_element(int* arr, int size)
